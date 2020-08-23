@@ -17,7 +17,7 @@
       {
         border: none;
         border-top: 5px dotted #00838a;
-        width: 5%;
+        width: 3%;
 
       }
       p
@@ -27,7 +27,12 @@
       img
       {
         width: 80%;
-        border: 4px solid #00838a;
+        border: 4px solid black;
+      }
+      a
+      {
+        text-decoration: none;
+        color: inherit;
       }
       .greenify
       {
@@ -35,16 +40,34 @@
       }
       .greenify_back
       {
-        background-color: #00838a
+        background-color: #00838a;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+      }
+      .greenify_under
+      {
+        border-bottom: 3px solid #00838a;
+      }
+      .blackify_back
+      {
+        background-color: black;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: white;
+      }
+      .display_inline
+      {
+        display: inline-block;
       }
     </style>
   </head>
   <body>
     <center>
-      <h1><strong>Abdurrahman Saud</strong></h1><h3>programmer and <span class = "greenify">more</span></h3><br><hr><br><br><br><br><br>
+      <h1 id = "main_title"><strong>Abdurrahman Saud</strong></h1><h3>programmer and <span class = "greenify">more</span></h3><br><hr><br><br><br><br><br>
       <p><span class = "greenify">"</span>The first time I remember writing any piece of code</p>
-      <p>was just after I graduated high school, it felt ... amazing<span class = "greenify">"</span></p><br><br><br><br><br><br><br><br>
-      <h2>stuff I've made</h2>
+      <p>was just after I graduated high school, it felt ... <span class = "greenify_under">amazing</span><span class = "greenify">"</span></p><br><br><br><br><br><br><br><br>
+      <h2><span class = "greenify_back">stuff</span> I've made</h2><br>
       <span class = "greenify">▼</span>
       <br><br><br><br><br><br><br><br><br><br>
 
@@ -67,7 +90,20 @@
       <p>or catagories. Has a calender to show each day's tasks in advance as well</p><br><br>
       <img src="images/mlsd.png" alt="there was a problem with displaying the image"><br>
       <p>written in HTML, PHP, CSS and Javascript. I used a MYSQL Database</p><br><br><br><br>
-      <hr><br><br><br>
+      <hr><br><br><br><br><br><br><br><br><br>
+
+      <h2><span class = "greenify_back display_inline">Contact</span> me</h2>
+      <span class = "greenify">▼</span>
+      <br><br><br><br><br><br><br><br><br><br>
+      <h2><em>a.s.sayed.contact@gmail.com</em></h2>
+      <h2><em>instagram.com/seeker.awe/</em></h2><br><br><br><br><br><br><br><br>
+
+      <p><span class = "greenify">"</span>The power of <span class = "greenify_under">coding</span> lies in the fact that you feel like a super hero !!</p>
+      <p>You begin to view the world differntly, problems become your <span class = "greenify_under">best friend</span>"</span></p><br><br><br><br><br><br><br><br>
+      <span class = "greenify">▲</span>
+      <h2><a href="#main_title">go to <span class = "greenify_back display_inline">top</span></a></h2>
+      <br>
+
 
     </center>
   </body>
